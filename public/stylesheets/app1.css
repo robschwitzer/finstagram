@@ -15,3 +15,9 @@ main {
 .post .user-info img {
     border-radius: 50px;
 }
+.post .user-info h2 {
+    font-family: 'Josefin Slab', serif;
+}
+a:hover {
+    color: orange;
+}
