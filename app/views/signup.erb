@@ -1,9 +1,10 @@
-<ul class="errors">
+<h2>Join Finstagram!</h2>
+
+<ul>
     <% @user.errors.full_messages.each do |message| %>
     <li><%= message %></li>
     <% end %>
 </ul>
-
 <form method='POST' action='/signup'>
     <div class='form-group'>
     <label for="email">Email</label>
